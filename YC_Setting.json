@@ -1,0 +1,92 @@
+{
+    "entry_dict":{
+        "width":20,
+        "bg":"white",
+        "relief":"sunke",
+        "borderwidth":1,
+        "font":["SimHei",12,"bold"],
+        "selectbackground":"#1e1e1e",
+        "selectborderwidth":3,
+        "selectforeground": "pink",
+        "highlightcolor":"black",
+        "highlightbackground":"#f0f0f0",
+        "highlightthickness":1
+    },
+
+    "title_dict":{"width":30,"height":1,
+        "bg":"tomato","padx":2,
+        "pady":2,"borderwidth":1,
+        "font":["SimHei",12,"bold"]
+    },
+
+    "btn_dict" : {
+        "bg":"#f0f0f0",
+        "padx":2,
+        "pady":2,
+        "relief":"raise",
+        "borderwidth":1,
+        "font":["SimHei",13,"bold"]
+    },
+
+    "label_dict" : {"width":12,"height":1,
+        "bg":"#f0f0f0","padx":2,
+        "pady":2,"relief":"ridge",
+        "borderwidth":1,
+        "font":["SimHei",12,"bold"]
+    },
+
+    "check_dict" : {
+        "bg":"white",
+        "font":["SimHei",12,"bold"],
+        "padx":2,
+        "pady":2,
+        "borderwidth":1
+    },
+
+    "cbb_dict" : {
+        "justify":"center",
+        "font":["SimHei",12,"bold"],
+        "background":"white",
+        "foreground": "black",
+        "width":10
+    },
+
+    "radio_dict" : {
+        "bg":"white",
+        "font":["SimHei",12,"bold"],
+        "padx":2,
+        "pady":2,
+        "borderwidth":2,
+        "indicatoron" : false
+    },
+
+    "text_dict" : {
+        "font":["SimHei",14,"bold"],
+        "height":5,
+        "width":50
+    },
+    
+    "tree_dict":{
+        "column":[1,2,3,4,5,6],
+        "show":"headings",
+        "height":20,
+        "selectmode":"extended"
+    },
+    "tree_description":{
+        "related_url":"https://pythonguides.com/python-tkinter-treeview/",
+        "height":"height=10，显示10行",
+        "selectmode":[
+            {"extended":"多选同时看到多个选中选项，与shift/ctrl使用"},
+            {"none":"不会看到任何标记"},
+            {"browse":"一次看到一个选中的选项"}
+        ]
+    },
+
+    "listbox_dict":{
+        "font":["SimHei",14,"bold"],
+        "selectmode":"extended",
+        "width":50
+        
+    }
+    
+}
